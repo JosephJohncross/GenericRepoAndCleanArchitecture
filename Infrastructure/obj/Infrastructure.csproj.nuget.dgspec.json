@@ -1,0 +1,198 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/joe/Documents/Workspace/ASP/GenericRepoAndOnionArchi/Infrastructure/Infrastructure.csproj": {}
+  },
+  "projects": {
+    "/home/joe/Documents/Workspace/ASP/GenericRepoAndOnionArchi/Application/Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/joe/Documents/Workspace/ASP/GenericRepoAndOnionArchi/Application/Application.csproj",
+        "projectName": "Application",
+        "projectPath": "/home/joe/Documents/Workspace/ASP/GenericRepoAndOnionArchi/Application/Application.csproj",
+        "packagesPath": "/home/joe/.nuget/packages/",
+        "outputPath": "/home/joe/Documents/Workspace/ASP/GenericRepoAndOnionArchi/Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/joe/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/joe/Documents/Workspace/ASP/GenericRepoAndOnionArchi/Domain/Domain.csproj": {
+                "projectPath": "/home/joe/Documents/Workspace/ASP/GenericRepoAndOnionArchi/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "NpgSql.EntityFrameworkCore.PostgreSQL.Design": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/joe/Documents/Workspace/ASP/GenericRepoAndOnionArchi/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/joe/Documents/Workspace/ASP/GenericRepoAndOnionArchi/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/home/joe/Documents/Workspace/ASP/GenericRepoAndOnionArchi/Domain/Domain.csproj",
+        "packagesPath": "/home/joe/.nuget/packages/",
+        "outputPath": "/home/joe/Documents/Workspace/ASP/GenericRepoAndOnionArchi/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/joe/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/joe/Documents/Workspace/ASP/GenericRepoAndOnionArchi/Infrastructure/Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/joe/Documents/Workspace/ASP/GenericRepoAndOnionArchi/Infrastructure/Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "/home/joe/Documents/Workspace/ASP/GenericRepoAndOnionArchi/Infrastructure/Infrastructure.csproj",
+        "packagesPath": "/home/joe/.nuget/packages/",
+        "outputPath": "/home/joe/Documents/Workspace/ASP/GenericRepoAndOnionArchi/Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/joe/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/joe/Documents/Workspace/ASP/GenericRepoAndOnionArchi/Application/Application.csproj": {
+                "projectPath": "/home/joe/Documents/Workspace/ASP/GenericRepoAndOnionArchi/Application/Application.csproj"
+              },
+              "/home/joe/Documents/Workspace/ASP/GenericRepoAndOnionArchi/Domain/Domain.csproj": {
+                "projectPath": "/home/joe/Documents/Workspace/ASP/GenericRepoAndOnionArchi/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
